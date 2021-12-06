@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medshakti</title>
+    <!--     <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link
+      href="//db.onlinewebfonts.com/c/009603073ddf1e34906b33601671b0fb?family=CamphorW01-Bold"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+        <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"
+      integrity="sha256-4sETKhh3aSyi6NRiA+qunPaTawqSMDQca/xLWu27Hg4="
+      crossorigin="anonymous"
+    ></script>  -->
+<!--     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+  </head>
+  <body>
+    <div class="header__background-color position__sticky">
+      <header>
+        <!-- Swiper JS -->
+        <div class="container row">
+          <button class="nav-toggle" aria-label="open navigation">
+            <span class="hamburger"></span>
+          </button>
+          <div>
+            <img
+              src="https://cdn.glitch.com/bdf74bd4-c0f4-4a3b-9c38-faa97e35390a%2FWhite%20Logo.png?v=1597866902993"
+              alt=""
+              class="logo"
+            />
+          </div>
+          <nav class="nav">
+            <ul class="nav__list nav__list--primary">
+              <li class="nav__item">
+                <a
+                  href="#home_content"
+                  class="nav__link active"
+                  onclick="closeNavToggleSmallScreen();changeActiveTab(event)"
+                  >Home</a
+                >
+              </li>
+              <li class="nav__item">
+                <a
+                  class="nav__link"
+                  href="#main_features_content"
+                  onclick="closeNavToggleSmallScreen();changeActiveTab(event)"
+                  >Features</a
+                >
+              </li>
+              <li class="nav__item">
+                <a
+                  href="#dowload_playstore_content"
+                  class="nav__link"
+                  onclick="closeNavToggleSmallScreen();changeActiveTab(event)"
+                  >Download</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </div>
+    <div id="home_content" class="img__background scroll-bg">
+      <section class="header__info">
+        <!-- <div class="container row">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  src="https://unsplash.it/800/600"
+                  alt="UX design sketches"
+                  class="swiper__img"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://unsplash.it/800/600"
+                  alt="UX design sketches"
+                  class="swiper__img"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://unsplash.it/800/600"
+                  alt="UX design sketches"
+                  class="swiper__img"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://unsplash.it/800/600"
+                  alt="UX design sketches"
+                  class="swiper__img"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://unsplash.it/800/600"
+                  alt="UX design sketches"
+                  class="swiper__img"
+                />
+              </div>
+            </div> -->
+        <!-- Add Pagination -->
+        <!-- <div class="swiper-pagination"></div> -->
+        <!-- Add Arrows -->
+        <!-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> -->
+        <!-- </div>
+        </div> -->
+        <div class="container row row__align_item align_text_center">
+          <div class="header__info__text">
+            <p>
+              Access to comprehensive, quality health care services at your
+              fingertip to prevent illness and be more aware of your body and
+              changes in them.
+            </p>
+            <a href="https://play.google.com/store/apps/details?id=com.medshakti" target="_blank" class="btn">Download</a>
+          </div>
+          <img
+            src="https://cdn.glitch.com/bdf74bd4-c0f4-4a3b-9c38-faa97e35390a%2F1A_Mobile-Screen.png?v=1598433756412"
+            alt="UX design sketches"
+            class="hero__img"
+          />
+        </div>
+      </section>
+    </div>
+
+    <main id="main_features_content" class="scroll-bg col_on_small_screen ">
+      <div class="main__title">
+        <h3>Our Features</h3>
+      </div>
+      <div class="main__content">
+        <div class="main__content--cards">
+          <div class="main__content--image">
+            <img
+              src="https://cdn.glitch.com/bdf74bd4-c0f4-4a3b-9c38-faa97e35390a%2FEasy%20Access.png?v=1597900179411"
+              alt=""
+              height="81"
+              style="vertical-align: middle;"
+            />
+          </div>
+          <div class="main__content--cards-info">
+            <h4>Easy Access</h4>
+            <p>
+              Effortless retrieval of diseases particular at your fingertips.
+            </p>
+          </div>
+        </div>
+        <div class="main__content--cards">
+          <div class="main__content--image">
+            <img
+              src="https://cdn.glitch.com/bdf74bd4-c0f4-4a3b-9c38-faa97e35390a%2FLocalisation.png?v=1597900246041"
+              alt=""
+              height="81"
+              style="vertical-align: middle;"
+            />
+          </div>
+          <div class="main__content--cards-info">
+            <h4>Localization</h4>
+            <p>
+              Smarter recommendation of articles based on your location.
+            </p>
+          </div>
+        </div>
+        <div class="main__content--cards">
+          <div class="main__content--image" href="#">
+            <img
+              src="https://cdn.glitch.com/bdf74bd4-c0f4-4a3b-9c38-faa97e35390a%2FMultilinguistic.png?v=1597900255441"
+              alt=""
+              height="81"
+              style="vertical-align: middle;"
+            />
+          </div>
+          <div class="main__content--cards-info">
+            <h4>Multilingual</h4>
+            <p>
+              Select and Read articles in your local lingo.
+            </p>
+          </div>
+        </div>
+        <div class="main__content--cards">
+          <div class="main__content--image" href="#">
+            <img
+              src="https://cdn.glitch.com/bdf74bd4-c0f4-4a3b-9c38-faa97e35390a%2FBookmarks.png?v=1597900047023"
+              alt=""
+              height="81"
+              style="vertical-align: middle;"
+            />
+          </div>
+          <div class="main__content--cards-info">
+            <h4>Your Bookmarks</h4>
+            <p>
+              Read anywhere, anytime.Stream your articles by save for later.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section
+      id="dowload_playstore_content"
+      class="playstore__link scroll-bg col_on_small_screen"
+    >
+      <div class="container row">
+        <div>
+          <h3>In Summary</h3>
+          <p>
+            We work to recast humane and efficient health care services for
+            prolonging life and better tomorrow.
+          </p>
+          <span>
+            <p>
+              <a href="https://play.google.com/store/apps/details?id=com.medshakti" target="_blank">
+                <img
+                  src="https://cdn.glitch.com/bdf74bd4-c0f4-4a3b-9c38-faa97e35390a%2FPlaystore_logo.png?v=1597900273472"
+                  alt="UX design sketches"
+                  class="playstore__link__icon_css"
+                />
+              </a>
+              <a href="">
+                <img
+                  src="https://cdn.glitch.com/bdf74bd4-c0f4-4a3b-9c38-faa97e35390a%2FAppStore_logo.png?v=1597900025096"
+                  alt="UX design sketches"
+                  class="playstore__link__icon_css"
+                />
+              </a>
+            </p>
+            
+          </span>
+        </div>
+        <img
+          src="https://cdn.glitch.com/bdf74bd4-c0f4-4a3b-9c38-faa97e35390a%2F1B_Mobile_Screen.png?v=1597867021996"
+          alt="UX design sketches"
+          class="bottom_image__styles"
+        />
+      </div>
+
+      <footer>
+        <div class="container row align_items_center">
+          <div>
+            <img
+              src="https://cdn.glitch.com/bdf74bd4-c0f4-4a3b-9c38-faa97e35390a%2FWhite%20Logo.png?v=1597866902993"
+              alt=""
+              class="logo"
+            />
+          </div>
+          <p>
+            Follow us on :
+            <span>
+              <img
+                src="https://cdn.glitch.com/bdf74bd4-c0f4-4a3b-9c38-faa97e35390a%2Ffacebook_icon.png?v=1597900193461"
+                alt="UX design sketches"
+                class="fb_twitter_image"
+              />
+            </span>
+            <span>
+              <img
+                src="https://cdn.glitch.com/bdf74bd4-c0f4-4a3b-9c38-faa97e35390a%2Finstagram_icon.png?v=1597900203845"
+                alt="UX design sketches"
+                class="fb_twitter_image"
+              />
+            </span>
+            <span>
+              <img
+                src="https://cdn.glitch.com/bdf74bd4-c0f4-4a3b-9c38-faa97e35390a%2Ftwitter_icon.png?v=1597900733898"
+                alt="UX design sketches"
+                class="fb_twitter_image"
+              />
+            </span>
+          </p>
+        </div>
+        <div class="container row row__align_item border_top_white">
+          <p>Copyright © 2020, Medshakti. All rights reserved.</p>
+          <p>
+            <span
+              >Contact Us <span class="fotter__content_spacing"> | </span>
+            </span>
+            <span class="mouse_pointer" 
+                  ><a href="terms.html" target="_blank">Terms & Condition</a>
+              <span class="fotter__content_spacing"> | </span>
+            </span>
+            <span class="mouse_pointer">Privacy Policy</span>
+          </p>
+        </div>
+      </footer>
+    </section>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Terms and Condition</h2>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the Modal Body</p>
+          <p>Some other text...</p>
+        </div>
+        <!--         <div class="modal-footer">
+          <h3>Modal Footer</h3>
+        </div> -->
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
